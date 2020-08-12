@@ -1,0 +1,37 @@
+@import "../../../main.scss";
+.materia_template {
+  height: 380px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid $dark;
+  .input_type {
+    margin: 4px;
+    border: 1px solid $light_green;
+    border-radius: 4px;
+    padding: 3px 6px;
+  }
+  .operation_box {
+    display: flex;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    .operation_btn {
+      background-color: $green;
+      border: 1px solid $dark;
+      border-radius: 5px;
+      color: $white;
+      cursor: pointer;
+      padding: 6px;
+      transition: 0.3s ease-in-out;
+    }
+    .operation_btn:hover {
+      background-color: $light_green;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

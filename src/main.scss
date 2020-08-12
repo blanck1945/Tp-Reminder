@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+//Color Variables
+$redux: #764abc;
+$dark: rgb(27, 27, 27);
+$text: rgb(243, 233, 233);
+$white: rgb(243, 233, 233);
+$green: rgb(1, 48, 40);
+$light_green: rgb(0, 94, 80);
+
+//Font Variables
+$font: "Open Sans", sans-serif;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 99vw;
+  height: 100vh;
+}

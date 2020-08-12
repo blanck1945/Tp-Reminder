@@ -1,0 +1,147 @@
+@import "../../main.scss";
+.todo_list {
+  width: 100%;
+  min-height: 80vh;
+  .redux_header {
+    color: $text;
+    background-color: $redux;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid $light_green;
+    border-top: 2px solid $light_green;
+    .todo_header {
+      font-family: $font;
+      font-size: 1.7rem;
+    }
+    .add_form {
+      width: 400px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .add_btn {
+        width: 90px;
+        height: 25px;
+        border-radius: 4px;
+        background-color: $green;
+        border: none;
+        color: $white;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .add_btn:hover {
+        background-color: $light_green;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+  .todo_box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    .todo_active {
+      width: 85%;
+      margin: 0 5px;
+      padding: 4px;
+      padding-left: 8px;
+      margin-top: 15px;
+      min-height: 300px;
+      background-color: #eee;
+      border-radius: 5px;
+      .todo_title {
+        text-decoration: underline;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 1.3rem;
+        color: $light_green;
+      }
+      .materia_box {
+        margin: auto;
+        width: 90%;
+        min-height: 60px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        .materia_item {
+          width: 98%;
+          min-height: 60px;
+          margin: 5px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: $light_green;
+          border: 1px solid $green;
+          .title_box {
+            display: flex;
+            flex-direction: column;
+            background-color: $green;
+            width: 350px;
+            margin: 10px 0;
+            padding: 4px 4px;
+            align-items: center;
+            justify-content: center;
+            .materia_title {
+              color: $text;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 40px;
+              width: 340px;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+            }
+            .materia_title:hover {
+              text-decoration: underline;
+              color: $light_green;
+              transition: 0.3s ease-in-out;
+            }
+            .materia_box {
+              display: grid;
+              grid-template-columns: 45% 45%;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              .materia_red {
+                color: brown;
+                width: 100%;
+              }
+              .materia_verde {
+                color: green;
+                width: 100%;
+              }
+              .complete_btn {
+                background-color: $light_green;
+                border-radius: 4px;
+                height: 20px;
+                width: 90%;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                color: $text;
+                margin: auto;
+                margin-top: 22px;
+                transition: 0.3s ease-in-out;
+              }
+              .complete_btn:hover {
+                background-color: crimson;
+                transition: 0.3s ease-in-out;
+              }
+            }
+          }
+          .materia_data {
+            color: $text;
+          }
+        }
+      }
+    }
+  }
+}

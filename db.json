@@ -1,0 +1,54 @@
+{
+  "materias": [
+    {
+      "id": 33,
+      "state": "Active",
+      "materia_title": "Geografia Economica",
+      "materia_tp": [
+        {
+          "tp_number": 1,
+          "tp_status": false
+        },
+        {
+          "tp_number": 2,
+          "tp_status": false
+        },
+        {
+          "tp_number": 3,
+          "tp_status": false
+        },
+        {
+          "tp_number": 4,
+          "tp_status": false
+        }
+      ],
+      "profesor": "Juan Ignacio Filo",
+      "tp_done": 0
+    },
+    {
+      "id": 17,
+      "state": "Active",
+      "materia_title": "Historia Argentina",
+      "materia_tp": [
+        {
+          "tp_number": 1,
+          "tp_status": false
+        },
+        {
+          "tp_number": 2,
+          "tp_status": false
+        },
+        {
+          "tp_number": 3,
+          "tp_status": false
+        },
+        {
+          "tp_number": 4,
+          "tp_status": false
+        }
+      ],
+      "profesor": "Romina Carafetto",
+      "tp_done": 0
+    }
+  ]
+}

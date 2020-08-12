@@ -1,0 +1,38 @@
+@import "../../main.scss";
+.redux_header {
+  color: $text;
+  background-color: $redux;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid $light_green;
+  border-top: 2px solid $light_green;
+  .todo_header {
+    font-family: $font;
+    font-size: 1.7rem;
+  }
+  .add_form {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .add_btn {
+      width: 90px;
+      height: 25px;
+      border-radius: 4px;
+      background-color: $green;
+      border: none;
+      color: $white;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .add_btn:hover {
+      background-color: $light_green;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

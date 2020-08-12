@@ -1,0 +1,16 @@
+//Constant
+
+export const CREATE_MATERIA = "CREATE_MATERIA";
+export const EDIT_MATERIA = "EDIT_MATERIA";
+export const TOOGLE_MATERIA = "TOOGLE_MATERIA";
+export const CHANGE_MATERIA_STATE = "CHANGE_MATERIA_STATE";
+export const SELECT_MATERIA = "SELECT_MATERIA";
+
+export const CHANGE_EDIT_MODE = "CHANGE_EDIT_MODE";
+
+export const CHANGE_TP_STATUS = "CHANGE_TP_STATUS";
+export const CHANGE_DONE_NUM = "CHANGE_DONE_NUM";
+
+//fetching data
+
+export const FETCH_MATERIAS = "FETCH_MATERIAS";

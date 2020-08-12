@@ -1,0 +1,49 @@
+.home_nav {
+  width: 100%;
+  height: 80vh;
+  .nav_img {
+    width: 100%;
+    height: 100%;
+  }
+  .abs-Box {
+    position: absolute;
+    width: 50%;
+    background-color: rgba(238, 238, 238, 0.808);
+    min-height: 400px;
+    bottom: 160px;
+    border-radius: 4px;
+    text-align: center;
+    left: 25%;
+    color: rgb(37, 36, 36);
+  }
+  .abs_title {
+    margin: 5px;
+  }
+  .type {
+    color: rgb(0, 122, 204);
+  }
+  .react {
+    color: #00d8ff;
+  }
+  .scss {
+    color: #cc6699;
+  }
+  .router {
+    color: rgb(45, 45, 45);
+  }
+  .icons {
+    color: rgb(233, 30, 99);
+  }
+  .forms {
+    color: rgb(236, 89, 144);
+  }
+  .axios {
+    color: rgb(3, 3, 3);
+  }
+  .lazy {
+    color: rgb(254, 22, 99);
+  }
+  .query {
+    color: hsl(205, 100%, 13%);
+  }
+}

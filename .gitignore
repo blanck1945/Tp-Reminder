@@ -1,0 +1,7 @@
+/node_modules
+/yarn.lock
+/gitignore
+/yarn-error.log
+/public
+/dist
+/Redux_Toolkit
